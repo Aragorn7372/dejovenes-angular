@@ -29,7 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/dejovenes-angular/browser
+          publish_dir: ./dist/dejovenes/browser
           publish_branch: gh-pages
           force_orphan: true
           user_name: 'github-actions[bot]'
